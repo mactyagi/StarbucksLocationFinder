@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320BA2A82B67D8050018A7CA /* StarbucksLocationFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2A72B67D8050018A7CA /* StarbucksLocationFinderApp.swift */; };
+		320BA2AA2B67D8050018A7CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2A92B67D8050018A7CA /* ContentView.swift */; };
+		320BA2AC2B67D8070018A7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320BA2AB2B67D8070018A7CA /* Assets.xcassets */; };
+		320BA2AF2B67D8070018A7CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320BA2AE2B67D8070018A7CA /* Preview Assets.xcassets */; };
+		320BA2B92B67D8070018A7CA /* StarbucksLocationFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2B82B67D8070018A7CA /* StarbucksLocationFinderTests.swift */; };
+		320BA2C32B67D8070018A7CA /* StarbucksLocationFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2C22B67D8070018A7CA /* StarbucksLocationFinderUITests.swift */; };
+		320BA2C52B67D8070018A7CA /* StarbucksLocationFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2C42B67D8070018A7CA /* StarbucksLocationFinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		320BA2B52B67D8070018A7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320BA29C2B67D8050018A7CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320BA2A32B67D8050018A7CA;
+			remoteInfo = StarbucksLocationFinder;
+		};
+		320BA2BF2B67D8070018A7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320BA29C2B67D8050018A7CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 320BA2A32B67D8050018A7CA;
+			remoteInfo = StarbucksLocationFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320BA2A42B67D8050018A7CA /* StarbucksLocationFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksLocationFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		320BA2A72B67D8050018A7CA /* StarbucksLocationFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLocationFinderApp.swift; sourceTree = "<group>"; };
+		320BA2A92B67D8050018A7CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		320BA2AB2B67D8070018A7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		320BA2AE2B67D8070018A7CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		320BA2B42B67D8070018A7CA /* StarbucksLocationFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbucksLocationFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		320BA2B82B67D8070018A7CA /* StarbucksLocationFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLocationFinderTests.swift; sourceTree = "<group>"; };
+		320BA2BE2B67D8070018A7CA /* StarbucksLocationFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbucksLocationFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		320BA2C22B67D8070018A7CA /* StarbucksLocationFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLocationFinderUITests.swift; sourceTree = "<group>"; };
+		320BA2C42B67D8070018A7CA /* StarbucksLocationFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLocationFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		320BA2A12B67D8050018A7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320BA2B12B67D8070018A7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320BA2BB2B67D8070018A7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320BA29B2B67D8050018A7CA = {
+			isa = PBXGroup;
+			children = (
+				320BA2A62B67D8050018A7CA /* StarbucksLocationFinder */,
+				320BA2B72B67D8070018A7CA /* StarbucksLocationFinderTests */,
+				320BA2C12B67D8070018A7CA /* StarbucksLocationFinderUITests */,
+				320BA2A52B67D8050018A7CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		320BA2A52B67D8050018A7CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320BA2A42B67D8050018A7CA /* StarbucksLocationFinder.app */,
+				320BA2B42B67D8070018A7CA /* StarbucksLocationFinderTests.xctest */,
+				320BA2BE2B67D8070018A7CA /* StarbucksLocationFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320BA2A62B67D8050018A7CA /* StarbucksLocationFinder */ = {
+			isa = PBXGroup;
+			children = (
+				320BA2A72B67D8050018A7CA /* StarbucksLocationFinderApp.swift */,
+				320BA2A92B67D8050018A7CA /* ContentView.swift */,
+				320BA2AB2B67D8070018A7CA /* Assets.xcassets */,
+				320BA2AD2B67D8070018A7CA /* Preview Content */,
+			);
+			path = StarbucksLocationFinder;
+			sourceTree = "<group>";
+		};
+		320BA2AD2B67D8070018A7CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				320BA2AE2B67D8070018A7CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		320BA2B72B67D8070018A7CA /* StarbucksLocationFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				320BA2B82B67D8070018A7CA /* StarbucksLocationFinderTests.swift */,
+			);
+			path = StarbucksLocationFinderTests;
+			sourceTree = "<group>";
+		};
+		320BA2C12B67D8070018A7CA /* StarbucksLocationFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				320BA2C22B67D8070018A7CA /* StarbucksLocationFinderUITests.swift */,
+				320BA2C42B67D8070018A7CA /* StarbucksLocationFinderUITestsLaunchTests.swift */,
+			);
+			path = StarbucksLocationFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		320BA2A32B67D8050018A7CA /* StarbucksLocationFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320BA2C82B67D8070018A7CA /* Build configuration list for PBXNativeTarget "StarbucksLocationFinder" */;
+			buildPhases = (
+				320BA2A02B67D8050018A7CA /* Sources */,
+				320BA2A12B67D8050018A7CA /* Frameworks */,
+				320BA2A22B67D8050018A7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarbucksLocationFinder;
+			productName = StarbucksLocationFinder;
+			productReference = 320BA2A42B67D8050018A7CA /* StarbucksLocationFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		320BA2B32B67D8070018A7CA /* StarbucksLocationFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320BA2CB2B67D8070018A7CA /* Build configuration list for PBXNativeTarget "StarbucksLocationFinderTests" */;
+			buildPhases = (
+				320BA2B02B67D8070018A7CA /* Sources */,
+				320BA2B12B67D8070018A7CA /* Frameworks */,
+				320BA2B22B67D8070018A7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				320BA2B62B67D8070018A7CA /* PBXTargetDependency */,
+			);
+			name = StarbucksLocationFinderTests;
+			productName = StarbucksLocationFinderTests;
+			productReference = 320BA2B42B67D8070018A7CA /* StarbucksLocationFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		320BA2BD2B67D8070018A7CA /* StarbucksLocationFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320BA2CE2B67D8070018A7CA /* Build configuration list for PBXNativeTarget "StarbucksLocationFinderUITests" */;
+			buildPhases = (
+				320BA2BA2B67D8070018A7CA /* Sources */,
+				320BA2BB2B67D8070018A7CA /* Frameworks */,
+				320BA2BC2B67D8070018A7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				320BA2C02B67D8070018A7CA /* PBXTargetDependency */,
+			);
+			name = StarbucksLocationFinderUITests;
+			productName = StarbucksLocationFinderUITests;
+			productReference = 320BA2BE2B67D8070018A7CA /* StarbucksLocationFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		320BA29C2B67D8050018A7CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					320BA2A32B67D8050018A7CA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					320BA2B32B67D8070018A7CA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 320BA2A32B67D8050018A7CA;
+					};
+					320BA2BD2B67D8070018A7CA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 320BA2A32B67D8050018A7CA;
+					};
+				};
+			};
+			buildConfigurationList = 320BA29F2B67D8050018A7CA /* Build configuration list for PBXProject "StarbucksLocationFinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 320BA29B2B67D8050018A7CA;
+			productRefGroup = 320BA2A52B67D8050018A7CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				320BA2A32B67D8050018A7CA /* StarbucksLocationFinder */,
+				320BA2B32B67D8070018A7CA /* StarbucksLocationFinderTests */,
+				320BA2BD2B67D8070018A7CA /* StarbucksLocationFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		320BA2A22B67D8050018A7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320BA2AF2B67D8070018A7CA /* Preview Assets.xcassets in Resources */,
+				320BA2AC2B67D8070018A7CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320BA2B22B67D8070018A7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320BA2BC2B67D8070018A7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		320BA2A02B67D8050018A7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320BA2AA2B67D8050018A7CA /* ContentView.swift in Sources */,
+				320BA2A82B67D8050018A7CA /* StarbucksLocationFinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320BA2B02B67D8070018A7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320BA2B92B67D8070018A7CA /* StarbucksLocationFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		320BA2BA2B67D8070018A7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320BA2C52B67D8070018A7CA /* StarbucksLocationFinderUITestsLaunchTests.swift in Sources */,
+				320BA2C32B67D8070018A7CA /* StarbucksLocationFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		320BA2B62B67D8070018A7CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 320BA2A32B67D8050018A7CA /* StarbucksLocationFinder */;
+			targetProxy = 320BA2B52B67D8070018A7CA /* PBXContainerItemProxy */;
+		};
+		320BA2C02B67D8070018A7CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 320BA2A32B67D8050018A7CA /* StarbucksLocationFinder */;
+			targetProxy = 320BA2BF2B67D8070018A7CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		320BA2C62B67D8070018A7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		320BA2C72B67D8070018A7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		320BA2C92B67D8070018A7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarbucksLocationFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = F638V29VVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactyagi.StarbucksLocationFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		320BA2CA2B67D8070018A7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarbucksLocationFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = F638V29VVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactyagi.StarbucksLocationFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		320BA2CC2B67D8070018A7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F638V29VVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactyagi.StarbucksLocationFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarbucksLocationFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarbucksLocationFinder";
+			};
+			name = Debug;
+		};
+		320BA2CD2B67D8070018A7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F638V29VVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactyagi.StarbucksLocationFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarbucksLocationFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarbucksLocationFinder";
+			};
+			name = Release;
+		};
+		320BA2CF2B67D8070018A7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F638V29VVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactyagi.StarbucksLocationFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarbucksLocationFinder;
+			};
+			name = Debug;
+		};
+		320BA2D02B67D8070018A7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F638V29VVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactyagi.StarbucksLocationFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarbucksLocationFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		320BA29F2B67D8050018A7CA /* Build configuration list for PBXProject "StarbucksLocationFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320BA2C62B67D8070018A7CA /* Debug */,
+				320BA2C72B67D8070018A7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320BA2C82B67D8070018A7CA /* Build configuration list for PBXNativeTarget "StarbucksLocationFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320BA2C92B67D8070018A7CA /* Debug */,
+				320BA2CA2B67D8070018A7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320BA2CB2B67D8070018A7CA /* Build configuration list for PBXNativeTarget "StarbucksLocationFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320BA2CC2B67D8070018A7CA /* Debug */,
+				320BA2CD2B67D8070018A7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320BA2CE2B67D8070018A7CA /* Build configuration list for PBXNativeTarget "StarbucksLocationFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320BA2CF2B67D8070018A7CA /* Debug */,
+				320BA2D02B67D8070018A7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 320BA29C2B67D8050018A7CA /* Project object */;
+}
