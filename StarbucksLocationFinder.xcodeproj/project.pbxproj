@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		320BA2A82B67D8050018A7CA /* StarbucksLocationFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2A72B67D8050018A7CA /* StarbucksLocationFinderApp.swift */; };
-		320BA2AA2B67D8050018A7CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2A92B67D8050018A7CA /* ContentView.swift */; };
+		320BA2AA2B67D8050018A7CA /* StarbucksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2A92B67D8050018A7CA /* StarbucksListView.swift */; };
 		320BA2AC2B67D8070018A7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320BA2AB2B67D8070018A7CA /* Assets.xcassets */; };
 		320BA2AF2B67D8070018A7CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320BA2AE2B67D8070018A7CA /* Preview Assets.xcassets */; };
 		320BA2B92B67D8070018A7CA /* StarbucksLocationFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2B82B67D8070018A7CA /* StarbucksLocationFinderTests.swift */; };
 		320BA2C32B67D8070018A7CA /* StarbucksLocationFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2C22B67D8070018A7CA /* StarbucksLocationFinderUITests.swift */; };
 		320BA2C52B67D8070018A7CA /* StarbucksLocationFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2C42B67D8070018A7CA /* StarbucksLocationFinderUITestsLaunchTests.swift */; };
+		320BA2D22B67ED0A0018A7CA /* StarbucksMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320BA2D12B67ED0A0018A7CA /* StarbucksMapView.swift */; };
+		328DAB602B68B426003241BD /* StarbucksListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DAB5F2B68B426003241BD /* StarbucksListViewModel.swift */; };
+		328DAB622B68B92F003241BD /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DAB612B68B92F003241BD /* Models.swift */; };
+		328DAB642B68BCE8003241BD /* CustomBackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DAB632B68BCE8003241BD /* CustomBackButtonView.swift */; };
+		328DAB662B68C68D003241BD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DAB652B68C68D003241BD /* Extension.swift */; };
+		328DAB6D2B68F13C003241BD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328DAB6C2B68F13C003241BD /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		320BA2A42B67D8050018A7CA /* StarbucksLocationFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksLocationFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		320BA2A72B67D8050018A7CA /* StarbucksLocationFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLocationFinderApp.swift; sourceTree = "<group>"; };
-		320BA2A92B67D8050018A7CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		320BA2A92B67D8050018A7CA /* StarbucksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksListView.swift; sourceTree = "<group>"; };
 		320BA2AB2B67D8070018A7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		320BA2AE2B67D8070018A7CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		320BA2B42B67D8070018A7CA /* StarbucksLocationFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbucksLocationFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,12 @@
 		320BA2BE2B67D8070018A7CA /* StarbucksLocationFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbucksLocationFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		320BA2C22B67D8070018A7CA /* StarbucksLocationFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLocationFinderUITests.swift; sourceTree = "<group>"; };
 		320BA2C42B67D8070018A7CA /* StarbucksLocationFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLocationFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		320BA2D12B67ED0A0018A7CA /* StarbucksMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksMapView.swift; sourceTree = "<group>"; };
+		328DAB5F2B68B426003241BD /* StarbucksListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksListViewModel.swift; sourceTree = "<group>"; };
+		328DAB612B68B92F003241BD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		328DAB632B68BCE8003241BD /* CustomBackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButtonView.swift; sourceTree = "<group>"; };
+		328DAB652B68C68D003241BD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		328DAB6C2B68F13C003241BD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				320BA2A72B67D8050018A7CA /* StarbucksLocationFinderApp.swift */,
-				320BA2A92B67D8050018A7CA /* ContentView.swift */,
+				328DAB692B68D1D8003241BD /* StarBucksList Screen */,
+				328DAB652B68C68D003241BD /* Extension.swift */,
+				328DAB6B2B68D208003241BD /* MapView Screen */,
+				328DAB6A2B68D1F6003241BD /* Common Views */,
 				320BA2AB2B67D8070018A7CA /* Assets.xcassets */,
 				320BA2AD2B67D8070018A7CA /* Preview Content */,
 			);
@@ -125,6 +140,33 @@
 				320BA2C42B67D8070018A7CA /* StarbucksLocationFinderUITestsLaunchTests.swift */,
 			);
 			path = StarbucksLocationFinderUITests;
+			sourceTree = "<group>";
+		};
+		328DAB692B68D1D8003241BD /* StarBucksList Screen */ = {
+			isa = PBXGroup;
+			children = (
+				320BA2A92B67D8050018A7CA /* StarbucksListView.swift */,
+				328DAB612B68B92F003241BD /* Models.swift */,
+				328DAB5F2B68B426003241BD /* StarbucksListViewModel.swift */,
+				328DAB6C2B68F13C003241BD /* NetworkManager.swift */,
+			);
+			path = "StarBucksList Screen";
+			sourceTree = "<group>";
+		};
+		328DAB6A2B68D1F6003241BD /* Common Views */ = {
+			isa = PBXGroup;
+			children = (
+				328DAB632B68BCE8003241BD /* CustomBackButtonView.swift */,
+			);
+			path = "Common Views";
+			sourceTree = "<group>";
+		};
+		328DAB6B2B68D208003241BD /* MapView Screen */ = {
+			isa = PBXGroup;
+			children = (
+				320BA2D12B67ED0A0018A7CA /* StarbucksMapView.swift */,
+			);
+			path = "MapView Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				320BA2AA2B67D8050018A7CA /* ContentView.swift in Sources */,
+				320BA2AA2B67D8050018A7CA /* StarbucksListView.swift in Sources */,
+				328DAB602B68B426003241BD /* StarbucksListViewModel.swift in Sources */,
+				328DAB662B68C68D003241BD /* Extension.swift in Sources */,
+				320BA2D22B67ED0A0018A7CA /* StarbucksMapView.swift in Sources */,
+				328DAB6D2B68F13C003241BD /* NetworkManager.swift in Sources */,
+				328DAB642B68BCE8003241BD /* CustomBackButtonView.swift in Sources */,
 				320BA2A82B67D8050018A7CA /* StarbucksLocationFinderApp.swift in Sources */,
+				328DAB622B68B92F003241BD /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +473,8 @@
 				DEVELOPMENT_TEAM = F638V29VVL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App uses Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +504,8 @@
 				DEVELOPMENT_TEAM = F638V29VVL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "App uses Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

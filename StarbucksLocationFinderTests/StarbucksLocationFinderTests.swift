@@ -6,25 +6,58 @@
 //
 
 import XCTest
+import Combine
+
 @testable import StarbucksLocationFinder
+import CoreLocation
 
 final class StarbucksLocationFinderTests: XCTestCase {
 
+    var viewModel: StarbucksListView.StarbucksLocationsViewModel!
+    var cancellables: Set<AnyCancellable>!
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        viewModel = StarbucksListView.StarbucksLocationsViewModel()
+        cancellables = Set<AnyCancellable>()
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        viewModel = nil
+        cancellables = nil
+        try super.tearDownWithError()
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
+    
+    func test_location_authorization_denied_returnLocationPermissionDeniedTrue() {
+        viewModel.checkLocationAuthorization(with: .denied)
+        
+        XCTAssertTrue(viewModel.locationPermissionDenied)
+        }
+    
+    func test_location_authorization_authorized_when_in_use_returnLocationPermissionDeniedFalse() {
+        viewModel.checkLocationAuthorization(with: .authorizedWhenInUse)
+        
+        XCTAssertFalse(viewModel.locationPermissionDenied)
+        }
+    
+    func test_location_authorization_authorized_always_returnLocationPermissionDeniedFalse() {
+        viewModel.checkLocationAuthorization(with: .authorizedAlways)
+        
+        XCTAssertFalse(viewModel.locationPermissionDenied)
+        }
+    
+    func test_location_authorization_authorized_not_determined_returnLocationPermissionDeniedTrue() {
+        viewModel.checkLocationAuthorization(with: .notDetermined)
+        
+        XCTAssertTrue(viewModel.locationPermissionDenied)
+        }
+    
+    func test_location_authorization_authorized_restricted_returnLocationPermissionDeniedTrue() {
+        viewModel.checkLocationAuthorization(with: .restricted)
+        
+        XCTAssertTrue(viewModel.locationPermissionDenied)
+        }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
@@ -32,5 +65,13 @@ final class StarbucksLocationFinderTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }
+
+
+
+
+
+
+
+
+
